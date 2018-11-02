@@ -45,8 +45,8 @@ Una **promise** che come risposta ha un valore vero, non può non essere che ver
 ```js
 let promise = new Promise(
 	(resolve, reject) =>{
-		resolve("I FIRED");
-		reject(new Error("I DID NOT FIRE"));
+		resolve("UNA PROMOSESSA E' UNA PROMESSA");
+		reject(new Error("UNA NON PROMESSA NON E' UNA PROMESSA"));
 	}
 ); 
 
@@ -54,8 +54,6 @@ onReject = (error) =>{
 	console.log(error.message)
 }
 
-
-promise.then(console.log, onReject);
 ```
 
 
