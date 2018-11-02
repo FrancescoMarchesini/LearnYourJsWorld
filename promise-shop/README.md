@@ -1,8 +1,8 @@
 # Promise
 
-## 01_Then 
-
 La **promise** è un'oggetto che definisce un metodo chiamato **then**. L'oggetto **promise** rappresenta un valore che può essere disponibile in un possibile tempo futuro.
+
+## 01_Then 
 
 Il valore della **promise** è ottenuta chimando il metodo **then**, che può essere chiamato più volte, oppure come è piu comunemente usanto un unica vola nella funzione di callBack **onFulFilled**
 
