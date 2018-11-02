@@ -1,4 +1,4 @@
-## Promise
+# Promise
 
 ## 01_Then 
 
