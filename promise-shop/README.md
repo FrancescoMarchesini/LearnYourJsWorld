@@ -17,6 +17,8 @@ ed utilizzabile tramite
 	require('es6-promise')
 ```
 
+## 02_Reject
+
 Il secondo metodo della **promise** e **reject** che viene utilizzato per leggere il valore della **promise** quando non è andata a buon fine, ad esempio 
 
 ```js
@@ -35,6 +37,7 @@ onRejected = (error) =>{
 promise.then(null, onRejected)
 ```
 
+## 03_promiseOnPromise
 
 Una **promise** che come risposta ha un valore vero, non può non essere che vera :) anche se viene subito **reject** ... Una promessa è sempre una promessa
 
