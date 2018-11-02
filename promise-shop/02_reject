@@ -1,0 +1,16 @@
+let promise = new Promise((resolve, reject) => {
+	
+	setTimeout(function(){
+	//risoluzione della promise
+		reject("REJECTED");
+	}, 300)
+});
+
+
+promise.then(onReject("REJECTED")) 
+
+onReject = (error) =>{
+	console.log(error)
+}
+
+

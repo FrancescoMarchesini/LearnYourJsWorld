@@ -34,24 +34,3 @@ onRejected = (error) =>{
 
 promise.then(null, onRejected)
 ```
-
-
-Una **promise** che come risposta ha un valore vero, non può non essere che vera :) anche se viene subito **reject** ... Una promessa è sempre una promessa
-
-```js
-let promise = new Promise(
-	(resolve, reject) =>{
-		resolve("I FIRED");
-		reject(new Error("I DID NOT FIRE"));
-	}
-); 
-
-onReject = (error) =>{
-	console.log(error.message)
-}
-
-
-promise.then(console.log, onReject);
-```
-
-
