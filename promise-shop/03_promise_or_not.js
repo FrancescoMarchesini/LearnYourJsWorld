@@ -1,7 +1,7 @@
 let promise = new Promise(
 	(resolve, reject) =>{
-		resolve("I FIRED");
-		reject(new Error("I DID NOT FIRE"));
+		resolve("UNA PROMOSESSA E' UNA PROMESSA");
+		reject(new Error("UNA NON PROMESSA NON E' UNA PROMESSA"));
 	}
 ); 
 
