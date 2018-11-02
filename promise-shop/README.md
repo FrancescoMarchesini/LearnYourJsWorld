@@ -55,5 +55,19 @@ onReject = (error) =>{
 }
 
 ```
+## 04_L'asincronicità della **Promise**
 
+Le **promise** sono sempre asincrone, scopriamo il perchè
 
+```js
+let promise = new Promise(
+	(resolve, reject) =>{
+		resolve("UNA PROMISE E' SEMPRE ASINCRONA");
+	}
+); 
+
+promise.then(console.log);
+
+console.log("QUESTO DIMOSTRA CHE");
+
+```
